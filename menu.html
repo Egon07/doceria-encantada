@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- META DATA -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Cardápio completo da Doceria Encantada. Bolos, tortas, doces finos, cupcakes e muito mais. Faça seu pedido!" />
+    <meta name="keywords" content="cardápio doceria, preços bolos, doces para festa, encomendas" />
+
+    <title>Cardápio - Doceria Encantada</title>
+
+    <!-- Núcleo Bootstrap / CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Owl Carousel Assets -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fontes e Ícones -->
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/logos/logo2.png" alt="Doceria Encantada - Os Melhores Doces Artesanais">
+            </a>
+            
+            <nav class="menu-principal">
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="menu-lista">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem.html">Quem Somos</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="arquivo.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner da Página -->
+        <section class="page-banner">
+            <div class="container">
+                <h1>Nosso Cardápio</h1>
+                <p>Delícias feitas com ingredientes selecionados</p>
+            </div>
+        </section>
+
+        <!-- Filtros de Categoria -->
+        <section class="filtros-categoria">
+            <div class="container">
+                <div class="filtros-container">
+                    <button class="filtro-btn active" data-categoria="todos">Todos os Produtos</button>
+                    <button class="filtro-btn" data-categoria="bolos">Bolos</button>
+                    <button class="filtro-btn" data-categoria="tortas">Tortas</button>
+                    <button class="filtro-btn" data-categoria="doces-finos">Doces Finos</button>
+                    <button class="filtro-btn" data-categoria="cupcakes">Cupcakes</button>
+                    <button class="filtro-btn" data-categoria="sobremesas">Sobremesas</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cardápio - Bolos -->
+        <section class="categoria-menu" id="bolos">
+            <div class="container">
+                <h2 class="categoria-titulo">
+                    <i class="fa fa-birthday-cake"></i>
+                    Bolos Artesanais
+                </h2>
+                <div class="produtos-grid">
+                    <div class="produto-card" data-categoria="bolos">
+                        <div class="produto-img">
+                            <img src="img/bolo_de_limão/bolo_limao3.png" alt="Bolo de Limão">
+                            <span class="produto-tag">Mais Vendido</span>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Bolo de Limão</h3>
+                            <p>Massa de chocolate branco com limão</p>
+                            <div class="produto-detalhes">
+                                <span class="produto-tamanho">Serve 8-10 pessoas</span>
+                                <span class="produto-tempo"><i class="fa fa-clock-o"></i> 48h de antecedência</span>
+                            </div>
+                            <div class="produto-preco">R$ 85,00</div>
+                            <button class="btn btn-secondary btn-comprar">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="bolos">
+                        <div class="produto-img">
+                            <img src="img/bolo_de_ninho/Bolo_Ninho3.png" alt="Bolo de Ninho">
+                            <span class="produto-tag">Clássico</span>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Bolo de Ninho</h3>
+                            <p>Massa branca com recheio de creme de ninho</p>
+                            <div class="produto-detalhes">
+                                <span class="produto-tamanho">Serve 8-10 pessoas</span>
+                                <span class="produto-tempo"><i class="fa fa-clock-o"></i> 24h de antecedência</span>
+                            </div>
+                            <div class="produto-preco">R$ 75,00</div>
+                            <button class="btn btn-secondary btn-comprar">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="bolos">
+                        <div class="produto-img">
+                            <img src="img/bolo_de_doisamores/bolo_doisaamores4.png" alt="Bolo dois amores">
+                            <span class="produto-tag">Especial</span>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Dois amores</h3>
+                            <p>Massa aveludada com recheio cremoso</p>
+                            <div class="produto-detalhes">
+                                <span class="produto-tamanho">Serve 10-12 pessoas</span>
+                                <span class="produto-tempo"><i class="fa fa-clock-o"></i> 72h de antecedência</span>
+                            </div>
+                            <div class="produto-preco">R$ 95,00</div>
+                            <button class="btn btn-secondary btn-comprar">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="bolos">
+                        <div class="produto-img">
+                            <img src="img/bolo_de_chocolate/bolo_chocolate2.png" alt="Bolo de Chocolate">
+                            <span class="produto-tag">Tradicional</span>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Bolo de Chocolate</h3>
+                            <p>Massa fofinha com cobertura de chocolate meio amargo</p>
+                            <div class="produto-detalhes">
+                                <span class="produto-tamanho">Serve 8-10 pessoas</span>
+                                <span class="produto-tempo"><i class="fa fa-clock-o"></i> 24h de antecedência</span>
+                            </div>
+                            <div class="produto-preco">R$ 65,00</div>
+                            <button class="btn btn-secondary btn-comprar">Encomendar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cardápio - Tortas -->
+        <section class="categoria-menu" id="tortas">
+            <div class="container">
+                <h2 class="categoria-titulo">
+                    <i class="fa fa-pie-chart"></i>
+                    Tortas Doces
+                </h2>
+                <div class="produtos-grid">
+                    <div class="produto-card" data-categoria="tortas">
+                        <div class="produto-img">
+                            <img src="img/tortas/torta.jpg" alt="Torta de Limão">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Torta de Limão Siciliano</h3>
+                            <p>Base de biscoito crocante, creme de limão siciliano e merengue italiano</p>
+                            <div class="produto-detalhes">
+                                <span class="produto-tamanho">6 fatias</span>
+                                <span class="produto-tempo"><i class="fa fa-clock-o"></i> 24h de antecedência</span>
+                            </div>
+                            <div class="produto-preco">R$ 45,00</div>
+                            <button class="btn btn-secondary btn-comprar">Encomendar</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card" data-categoria="tortas">
+                        <div class="produto-img">
+                            <img src="img/tortas/cheescake.jpg" alt="Cheesecake de Frutas Vermelhas">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Cheesecake de Frutas</h3>
+                            <p>Base de biscoito, cream cheese e cobertura de geleia de frutas vermelhas</p>
+                            <div class="produto-detalhes">
+                                <span class="produto-tamanho">8 fatias</span>
+                                <span class="produto-tempo"><i class="fa fa-clock-o"></i> 48h de antecedência</span>
+                            </div>
+                            <div class="produto-preco">R$ 55,00</div>
+                            <button class="btn btn-secondary btn-comprar">Encomendar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cardápio - Doces Finos -->
+        <section class="categoria-menu" id="doces-finos">
+            <div class="container">
+                <h2 class="categoria-titulo">
+                    <i class="fa fa-diamond"></i>
+                    Doces Finos
+                </h2>
+                <div class="produtos-grid produtos-pequenos">
+                    <div class="produto-card pequeno" data-categoria="doces-finos">
+                        <div class="produto-img">
+                            <img src="img/brigadeiro/brigadeiro.jpg" alt="Brigadeiro Gourmet">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Brigadeiro Gourmet</h3>
+                            <p>Chocolate 70% cacau com granulado especial</p>
+                            <div class="produto-preco">R$ 3,50 <small>unidade</small></div>
+                            <div class="quantidade-selector">
+                                <button class="btn-quantidade">-</button>
+                                <span class="quantidade">12 un</span>
+                                <button class="btn-quantidade">+</button>
+                            </div>
+                            <button class="btn btn-secondary btn-comprar">Adicionar</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card pequeno" data-categoria="doces-finos">
+                        <div class="produto-img">
+                            <img src="img/beijinho/beijinho.png" alt="Beijinho">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Beijinho</h3>
+                            <p>Coco ralado fresco com leite condensado</p>
+                            <div class="produto-preco">R$ 3,00 <small>unidade</small></div>
+                            <div class="quantidade-selector">
+                                <button class="btn-quantidade">-</button>
+                                <span class="quantidade">12 un</span>
+                                <button class="btn-quantidade">+</button>
+                            </div>
+                            <button class="btn btn-secondary btn-comprar">Adicionar</button>
+                        </div>
+                    </div>
+
+                    <div class="produto-card pequeno" data-categoria="doces-finos">
+                        <div class="produto-img">
+                            <img src="img/macarons/macarons.png" alt="Macarons">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Macarons</h3>
+                            <p>Delicados com recheios variados</p>
+                            <div class="produto-preco">R$ 6,00 <small>unidade</small></div>
+                            <div class="quantidade-selector">
+                                <button class="btn-quantidade">-</button>
+                                <span class="quantidade">6 un</span>
+                                <button class="btn-quantidade">+</button>
+                            </div>
+                            <button class="btn btn-secondary btn-comprar">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informações de Encomenda -->
+        <section class="info-encomendas">
+            <div class="container">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa fa-calendar-check-o"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Como Fazer sua Encomenda</h3>
+                        <p>Entre em contato pelo WhatsApp ou telefone com pelo menos 24h de antecedência para bolos simples e 72h para bolos especiais.</p>
+                        <div class="info-contato">
+                            <a href="https://wa.me/5511999999999" class="btn btn-primary">
+                                <i class="fa fa-whatsapp"></i>
+                                Fazer Encomenda
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="img/logos/logo2.png" alt="Doceria Encantada" style="max-height: 40px;">
+                    </div>
+                    <p>Doces feitos com amor desde 2018</p>
+                </div>
+                
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" aria-label="Link para o Facebook">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Link para o Instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com" target="_blank" aria-label="Link para o X/Twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://whatsapp.com" target="_blank" aria-label="Link para o WhatsApp">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copyright">© 2025 Doceria Encantada - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        // Filtro de categorias
+        document.addEventListener('DOMContentLoaded', function() {
+            const filtroBtns = document.querySelectorAll('.filtro-btn');
+            const produtoCards = document.querySelectorAll('.produto-card');
+
+            filtroBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active de todos os botões
+                    filtroBtns.forEach(b => b.classList.remove('active'));
+                    // Adiciona active no botão clicado
+                    this.classList.add('active');
+
+                    const categoria = this.getAttribute('data-categoria');
+
+                    produtoCards.forEach(card => {
+                        if (categoria === 'todos' || card.getAttribute('data-categoria') === categoria) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Controle de quantidade
+            const botoesQuantidade = document.querySelectorAll('.btn-quantidade');
+            botoesQuantidade.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const span = this.parentElement.querySelector('.quantidade');
+                    let quantidade = parseInt(span.textContent);
+                    
+                    if (this.textContent === '+') {
+                        quantidade += 6;
+                    } else if (this.textContent === '-' && quantidade > 6) {
+                        quantidade -= 6;
+                    }
+                    
+                    span.textContent = quantidade + ' un';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
